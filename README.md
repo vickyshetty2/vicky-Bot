@@ -69,10 +69,10 @@ __________________
 #####
  
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://bit.ly/3HzajVP)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@itsmebasil/Catbots)
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://replit.com/@itsmebasil/Catbots)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://bit.ly/3HzajVP)
 -------
 <br>
 <br >
@@ -122,11 +122,11 @@ Absolutely, Taurus-Bot executives do not accept responsibility.
 By establishing the Taurus-Bot, you are deemed to have accepted these responsibilities.
 ```
 
-## Developers 
+## Developer 
   <div align="center">
-    
-  [![muhammed-usrbot](https://github.com/muhammed-usrbot.png?size=100)](https://github.com/muhammed-usrbot) |
-----|----|----
+   
+[![MUHAMMED](https://github.com/muhammed-usrbot.png?size=100)](https://github.com/muhammed-usrbot) |
+------|
 [MUHAMMED](https://github.com/muhammed-usrbot) 
 Base, Bug Fixes, Modules, Bug Fixes, Modules, Bug fixes, ideas
   </div>
