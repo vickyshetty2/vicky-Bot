@@ -11,11 +11,11 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-    r_text[0] = "https://i.ibb.co/cJp2fTY/images.jpg";
-    r_text[1] = "https://i.ibb.co/1bGj0tQ/images-1.jpg";
+    r_text[0] = "https://bit.ly/3DOgLpP";
+    r_text[1] = "https://bit.ly/3cwa8fv";
     
 
-    var i = Math.floor(1*Math.random())
+    var i = Math.floor(2*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
