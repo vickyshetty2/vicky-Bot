@@ -1,5 +1,5 @@
 /* codded by raashii
-reedited by BASIL SIR
+reedited by muhammed
 use this git under copyright
 dont change credit
 */
