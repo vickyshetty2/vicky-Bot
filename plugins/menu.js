@@ -16,8 +16,6 @@ Badboy.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (a
     
     
     r_text[0] = "https://ibb.co/cJp2fTY";
-    r_text[1] = "https://ibb.co/1bGj0tQ";
-    
 
     var i = Math.floor(1*Math.random())
 
