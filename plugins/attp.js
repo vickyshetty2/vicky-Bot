@@ -8,7 +8,7 @@ const need = "*type some word after command 🍁"
 if (Config.WORKTYPE == 'public') {
    
    
-   Sophia.toasena({ pattern: 'attp', fromMe: false, desc: 'its send attp pack'}, (async (message, match) => {
+   Taurus.addCommand({ pattern: 'attp', fromMe: false, desc: 'its send attp pack'}, (async (message, match) => {
 
   await message.sendMessage(`╔═════════════════════╗
 ║        ║🍁╚ATTP PACK╝🍁║
@@ -101,7 +101,7 @@ if (Config.WORKTYPE == 'public') {
 }));
    
    
-     Sophia.toasena({ pattern: '01attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+     Taurus.addCommand({ pattern: '01attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -111,7 +111,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '02attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '02attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -121,7 +121,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '03attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '03attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -131,7 +131,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '04attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '04attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -141,7 +141,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '05attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '05attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -151,7 +151,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '06attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '06attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -161,7 +161,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '07attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '07attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -171,7 +171,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '08attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '08attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -181,7 +181,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '09attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '09attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -191,7 +191,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '10attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '10attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -201,7 +201,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
    
-   Sophia.toasena({ pattern: '11attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '11attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -210,7 +210,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN,quoted: message.data})
     }));
       
-     Sophia.toasena({ pattern: '12attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+     Taurus.addCommand({ pattern: '12attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -220,7 +220,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-      Sophia.toasena({ pattern: '13attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '13attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -229,7 +229,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN,quoted: message.data})
 
     }));
-      Sophia.toasena({ pattern: '14attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '14attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -239,7 +239,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-      Sophia.toasena({ pattern: '15attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '15attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -250,7 +250,7 @@ if (Config.WORKTYPE == 'public') {
     }));
       
       
-      Sophia.toasena({ pattern: '16attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '16attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -260,7 +260,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-      Sophia.toasena({ pattern: '17attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '17attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -270,7 +270,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
     
-    Sophia.toasena({ pattern: '18attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Taurus.addCommand({ pattern: '18attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -280,7 +280,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
     
-    Sophia.toasena({ pattern: '19attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Taurus.addCommand({ pattern: '19attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -290,7 +290,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
     
-    Sophia.toasena({ pattern: '20attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Taurus.addCommand({ pattern: '20attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -299,7 +299,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN ,quoted: message.data})
 
     }));
-    Sophia.toasena({ pattern: '21attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Taurus.addCommand({ pattern: '21attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -309,7 +309,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
     
-    Sophia.toasena({ pattern: '22attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Taurus.addCommand({ pattern: '22attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -319,7 +319,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
     
-      Sophia.toasena({ pattern: '23attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '23attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -329,7 +329,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
     
-    Sophia.toasena({ pattern: '24attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Taurus.addCommand({ pattern: '24attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -339,7 +339,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '25attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '25attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -348,7 +348,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN ,quoted: message.data})
 
     }));
-      Sophia.toasena({ pattern: '26attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '26attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -358,7 +358,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '27attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '27attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -367,7 +367,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN ,quoted: message.data})
 
     }));
-      Sophia.toasena({ pattern: '28attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '28attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -376,7 +376,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN ,quoted: message.data})
 
     }));
-      Sophia.toasena({ pattern: '29attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '29attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -386,7 +386,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '30attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '30attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -396,7 +396,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '31attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '31attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -405,7 +405,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN ,quoted: message.data})
 
     }));
-      Sophia.toasena({ pattern: '32attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '32attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -416,7 +416,7 @@ if (Config.WORKTYPE == 'public') {
     }));
       
    
-   Sophia.toasena({ pattern: '33attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '33attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -427,7 +427,7 @@ if (Config.WORKTYPE == 'public') {
     }));
       
    
-   Sophia.toasena({ pattern: '34attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '34attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -438,7 +438,7 @@ if (Config.WORKTYPE == 'public') {
     }));
       
    
-   Sophia.toasena({ pattern: '35attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '35attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -448,7 +448,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '36attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '36attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -458,7 +458,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '37attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '37attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -468,7 +468,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '38attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '38attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -477,7 +477,7 @@ if (Config.WORKTYPE == 'public') {
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.AFN ,quoted: message.data})
 
     }));
-      Sophia.toasena({ pattern: '39attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+      Taurus.addCommand({ pattern: '39attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -487,7 +487,7 @@ if (Config.WORKTYPE == 'public') {
 
     }));
       
-   Sophia.toasena({ pattern: '40attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+   Taurus.addCommand({ pattern: '40attp ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
