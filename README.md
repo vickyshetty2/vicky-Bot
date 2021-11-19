@@ -72,7 +72,7 @@ __________________
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@itsmebasil/Catbots)
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://bit.ly/3HzajVP)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://bit.ly/3x1z6gd)
 -------
 <br>
 <br >
