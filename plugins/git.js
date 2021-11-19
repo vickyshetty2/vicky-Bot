@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://www.linkpicture.com/q/TAURUSSIR.png";
+  r_text[0] = "https://ibb.co/cJp2fTY";
     
     
     var i = Math.floor(1*Math.random())
@@ -26,22 +26,22 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 
 
-*Bot setting video soon on : https://youtube.com/channel/UCeYZqtAtdYq8VwSIkW34JMA .*
+*ʙᴏᴛ sᴇᴛᴛɪɴɢ ᴠɪᴅᴇᴏ sᴏᴏɴ ᴏɴ : https://youtube.com/channel/UCeYZqtAtdYq8VwSIkW34JMA .*
 
 
 
-*Githublink (Setup)  :    https://github.com/Muhammed-usrbot/Taurus-Bot .*
+*ɢɪᴛʜᴜʙ ʟɪɴᴋ (sᴇᴛᴜᴘ)  :    https://github.com/Muhammed-usrbot/Taurus-Bot .*
 
 
-*Audio commads :   https://github.com/muhammed-usrbot/Taurus-Bot/tree/master/uploads .*
+*ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs :   https://github.com/muhammed-usrbot/Taurus-Bot/tree/master/uploads .*
 
 
-*Sticker commads : https://github.com/muhammed-usrbot/Taurus-Bot/tree/master/sticker .*
+*sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs : https://github.com/muhammed-usrbot/Taurus-Bot/tree/master/sticker .*
 
 
-*For More Updates Subscribe The Channel ☝*
+*ғᴏʀ ᴍᴏʀᴇ ᴜᴘᴅᴀᴛᴇs sᴜʙsᴄʀɪʙᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ*
 
-© Muhammed
+©2021 ᴍᴜʜᴀᴍᴍᴇᴅ
 `}) 
 
 }));
