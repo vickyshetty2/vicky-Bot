@@ -11,23 +11,37 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://i.imgur.com/1Qs9iFf.png";
+  r_text[0] = "https://www.linkpicture.com/q/TAURUSSIR.png";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*create Basil sir*
-*To check update .update   To update Bot .update now*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*TAURUS BOT BY MUHAMMED*
 
-*Bot making video : https://youtu.be/qYEbUAywStQ*
+*ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ᴛᴀᴜʀᴜs࿐*
 
-*Yt_PASSWORD: _________(password on this video watch it full)*
+*Creator number : wa.me/919961050829?text=Hi%20muhammed%20*
 
-*githublink : https://github.com/itsmebasil0/catbots*
 
-*audio commads : https://github.com/itsmebasil0/catbots/tree/master/uploads*
+
+*Bot setting video soon on : https://youtube.com/channel/UCeYZqtAtdYq8VwSIkW34JMA .*
+
+
+
+*Githublink (Setup)  :    https://github.com/Muhammed-usrbot/Taurus-Bot .*
+
+
+*Audio commads :   https://github.com/muhammed-usrbot/Taurus-Bot/tree/master/uploads .*
+
+
+*Sticker commads : https://github.com/muhammed-usrbot/Taurus-Bot/tree/master/sticker .*
+
+
+*For More Updates Subscribe The Channel ☝*
+
+© Muhammed
 `}) 
 
 }));
