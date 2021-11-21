@@ -4,7 +4,7 @@ PINKY V2
 
 */
 
-const Asena = require('../events');
+const MyPnky = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
@@ -67,7 +67,7 @@ function webp2mp4File(path) {
 if (Config.STANDPLK == 'off' || Config.STANDPLK == 'OFF') {
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'mp3$', fromMe: true, desc: Lang.MP4TOAUDİO_DESC}, (async (message, match) => {    
+    MyPnky.addCommand({pattern: 'mp3$', fromMe: true, desc: Lang.MP4TOAUDİO_DESC}, (async (message, match) => {    
         const mid = message.jid
         if (message.reply_message === false) return await message.client.sendMessage(mid, Lang.MP4TOAUDİO_NEEDREPLY, MessageType.text);
         var downloading = await message.client.sendMessage(mid,Lang.MP4TOAUDİO,MessageType.text);
@@ -87,7 +87,7 @@ if (Config.WORKTYPE == 'private') {
         return await message.client.deleteMessage(mid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
-    Asena.addCommand({pattern: 'photo$', fromMe: true, desc: Lang.STİCKER_DESC}, (async (message, match) => {   
+    MyPnky.addCommand({pattern: 'photo$', fromMe: true, desc: Lang.STİCKER_DESC}, (async (message, match) => {   
         const mid = message.jid
         if (message.reply_message === false) return await message.client.sendMessage(mid, Lang.STİCKER_NEEDREPLY, MessageType.text);
         var downloading = await message.client.sendMessage(mid,Lang.STİCKER,MessageType.text);
@@ -108,7 +108,7 @@ if (Config.WORKTYPE == 'private') {
         return await message.client.deleteMessage(mid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
     
-    Asena.addCommand({pattern: 'take', fromMe: true, desc: 'download whatsapp status (only video for image take screenshot vro)'}, (async (message, match) => {    
+    MyPnky.addCommand({pattern: 'take', fromMe: true, desc: 'download whatsapp status (only video for image take screenshot vro)'}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.client.sendMessage(message.jid,'```reply to a status video```', MessageType.text);
         var downloading = await message.client.sendMessage(message.jid,'bro am taking your status..hehe😎😎',MessageType.text);
@@ -137,7 +137,7 @@ if (Config.WORKTYPE == 'private') {
         return 
     }));
     
-    Asena.addCommand({pattern: 'mp4$', desc: Lang.ANİM_STİCK, fromMe: true}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'mp4$', desc: Lang.ANİM_STİCK, fromMe: true}, (async (message, match) => {
         const mid = message.jid
         if (message.reply_message === false) return await message.sendMessage(Lang.STİCKER_NEEDREPLY);
         await message.client.sendMessage(mid, Lang.ANİMATE, MessageType.text)
@@ -162,7 +162,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'mp3$', fromMe: false, desc: Lang.MP4TOAUDİO_DESC}, (async (message, match) => {    
+    MyPnky.addCommand({pattern: 'mp3$', fromMe: false, desc: Lang.MP4TOAUDİO_DESC}, (async (message, match) => {    
         const mid = message.jid
         if (message.reply_message === false) return await message.client.sendMessage(mid, Lang.MP4TOAUDİO_NEEDREPLY, MessageType.text);
         var downloading = await message.client.sendMessage(mid,Lang.MP4TOAUDİO,MessageType.text);
@@ -182,7 +182,7 @@ else if (Config.WORKTYPE == 'public') {
         return await message.client.deleteMessage(mid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
-    Asena.addCommand({pattern: 'photo$', fromMe: false, desc: Lang.STİCKER_DESC}, (async (message, match) => {    
+    MyPnky.addCommand({pattern: 'photo$', fromMe: false, desc: Lang.STİCKER_DESC}, (async (message, match) => {    
         const mid = message.jid
         if (message.reply_message === false) return await message.client.sendMessage(mid, Lang.STİCKER_NEEDREPLY, MessageType.text);
         var downloading = await message.client.sendMessage(mid,Lang.STİCKER,MessageType.text);
@@ -203,7 +203,7 @@ else if (Config.WORKTYPE == 'public') {
         return await message.client.deleteMessage(mid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
     
-      Asena.addCommand({pattern: 'take', fromMe: true, desc: 'download whatsapp status (only video for image take screenshot vro)'}, (async (message, match) => {    
+      MyPnky.addCommand({pattern: 'take', fromMe: true, desc: 'download whatsapp status (only video for image take screenshot vro)'}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.client.sendMessage(message.jid,'```reply to a status video```', MessageType.text);
         var downloading = await message.client.sendMessage(message.jid,'bro am taking your status..hehe😎😎',MessageType.text);
@@ -232,7 +232,7 @@ else if (Config.WORKTYPE == 'public') {
         return 
     }));
     
-   Asena.addCommand({pattern: 'mp4$', desc: Lang.ANİM_STİCK, fromMe: false}, (async (message, match) => {
+   MyPnky.addCommand({pattern: 'mp4$', desc: Lang.ANİM_STİCK, fromMe: false}, (async (message, match) => {
         const mid = message.jid
         if (message.reply_message === false) return await message.sendMessage(Lang.STİCKER_NEEDREPLY);
         await message.client.sendMessage(mid, Lang.ANİMATE, MessageType.text)
@@ -271,7 +271,7 @@ else if (Config.WORKTYPE == 'public') {
         usge = '```.doc pinky```'
     }
     
-     Asena.addCommand({pattern: 'doc ?(.*)', fromMe: false, desc: doc_desc , usage : usge}, (async (message, match) => { 
+     MyPnky.addCommand({pattern: 'doc ?(.*)', fromMe: false, desc: doc_desc , usage : usge}, (async (message, match) => { 
       
         if (match[1] === '') return await message.client.sendMessage(message.jid,'give me a name',MessageType.text);  
         const mid = message.jid
@@ -296,5 +296,4 @@ else if (Config.WORKTYPE == 'public') {
 }
     
 }
-
 
