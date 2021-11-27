@@ -27,7 +27,10 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 
 
-*ʙᴏᴛ sᴇᴛᴛɪɴɢ ᴠɪᴅᴇᴏ sᴏᴏɴ ᴏɴ : https://youtube.com/channel/UCeYZqtAtdYq8VwSIkW34JMA .*
+*ʜᴏᴡ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʙᴏᴛ : https://youtu.be/4mWfR23qFuA .*
+
+
+*ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ : https://youtube.com/channel/UCeYZqtAtdYq8VwSIkW34JMA
 
 
 
