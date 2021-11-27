@@ -26,8 +26,8 @@ var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '
       ]
       
       const buttonMessage = {
-          contentText: ' ʜʏ ʙʀᴜᴅʜᴀ\n\n         ☆ *𝖨𝖭𝖥𝖮* ☆\n\n☘︎ ɴᴀᴍᴇ  : ᴛᴀᴜʀᴜs     \n☘︎ sᴛᴀᴛᴇs : ᴘᴜʙʟɪᴄ\n☘︎ ᴛɪᴍᴇ   : ```' + plk_say + '```\n☘︎ ᴅᴀᴛᴇ : ```' + plk_here + '```\n☘︎ ᴘᴇʀғɪx : [ . ]\n\n         ☆ *𝖢𝖱𝖤𝖠𝖳𝖮𝖱* ☆\n\n☘︎ ᴍᴜʜᴀᴍᴍᴇᴅ\n\n          ☆ *𝖳𝖧𝖠𝖭𝖪𝖲* ☆\n\nʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ʙʀᴜᴅʜᴀ?\n\nᴛᴇʟʟ ᴍᴇ_☺︎︎\n',
-          footerText: '©2021 ᴍᴜʜᴀᴍᴍᴇᴅ',
+          contentText: ' *ʜᴇʏ*\n\n         ᪥ *𝖨𝖭𝖥𝖮* ᪥\n\n☘︎ ɴᴀᴍᴇ  : ᴛᴀᴜʀᴜs     \n☘︎ sᴛᴀᴛᴇs : ᴘᴜʙʟɪᴄ\n☘︎ ᴛɪᴍᴇ   : ```' + plk_say + '```\n☘︎ ᴅᴀᴛᴇ : ```' + plk_here + '```\n☘︎ ᴘᴇʀғɪx : [ . ]\n\n         ᪥ *𝖢𝖱𝖤𝖠𝖳𝖮𝖱* ᪥\n\n☘︎ ᴍᴜʜᴀᴍᴍᴇᴅ\n\n          ᪥ *𝖳𝖧𝖠𝖭𝖪𝖲 𝖳𝖮* ᪥\n\nᴍᴜʜᴀᴍᴍᴇᴅ\n\n© 2021 ᴍᴜʜᴀᴍᴍᴇᴅ\n\nᴀʟʟ ʀɪɢʜᴛ ʀᴇsᴇʀᴠᴇᴅ\n',
+          footerText: 'ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ʙʀᴏ_?',
           buttons: buttons,
           headerType: 1
       }
