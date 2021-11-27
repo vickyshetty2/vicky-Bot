@@ -403,7 +403,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '*~_________~ *TAURUS ERROR FOUND!* ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```*Subscribe channel to get updates and to remove errors:* https://youtube.com/channel/UCrnPCbv7jIKqAXQTllDV6Ng \n Report errors\njoin with +91 \n https://chat.whatsapp.com/EceyD88E4OeJwS0w8KUrsC``` ' 
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```*Subscribe channel to get updates and to remove errors:* https://youtube.com/channel/UCeYZqtAtdYq8VwSIkW34JMA \n Report errors\njoin with +91 \n https://chat.whatsapp.com/JCDXgSphA49EHxjPn813IL``` ' 
                                     , MessageType.text);
                             }
                         }
