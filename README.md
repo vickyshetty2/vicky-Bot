@@ -1,16 +1,16 @@
 
 <p align="center">
-𝐓𝐀𝐔𝐑𝐔𝐒 𝐁𝐎𝐓
+𝐖𝐞𝐞多𝐬 ᴋɪɴɢᴅᴏᴍ
 
 ##
-<a href="https://bit.ly/3koZRGY"><img src="WLCME.png" alt="google-font" border="0"></a>
+<a href="https://bit.ly/3koZRGY"><img src="New Project 30 [ABD60D4].png" alt="google-font" border="0"></a>
 <div align="center">
-        <img src="TAURUSGFX2.gif" alt="GIF" width="150" height="150"/>
+        <img src="New Project 30 [ABD60D4].png" alt="New Project 30 [ABD60D4].png" width="150" height="150"/>
 </p>
 
 <div align="center">
 
-## [![Taurus-Bot](https://readme-typing-svg.herokuapp.com?font=Comix+Loud&color=B62EE0&lines=Welcome+to+Taurus+WA+Bot+repo;Created+by+MUHAMMED;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/3wNuiez)
+## [![vicky-Bot](https://readme-typing-svg.herokuapp.com?font=Comix+Loud&color=B62EE0&lines=Welcome+to+vicky+WA+Bot+repo;Created+by+MUHAMMED;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/3wNuiez)
 
  </a>
 </p>
@@ -55,7 +55,7 @@
 ##
   <h3 align="center">ᴄʟɪᴄᴋ ᴡᴀ ʟᴏɢᴏ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</h3>
 <p align="center">
-  <a href="https://chat.whatsapp.com/JCDXgSphA49EHxjPn813IL" target="blank"><img align="center" src="TRSWA.png"alt="kyrie.baran" height="50" width="50" /></a>
+  <a href="https://chat.whatsapp.com/FaFSpe0soyJDjCGduJZzXS" target="blank"><img align="center" src="TRSWA.png"alt="kyrie.baran" height="50" width="50" /></a>
 </p>
 
 
