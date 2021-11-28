@@ -15,7 +15,7 @@ Badboy.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (a
     var r_text = new Array ();
     
     
-    r_text[0] = "https://bit.ly/3DOgLpP";
+    r_text[0] = "https://bit.ly/3o1uYdw";
     r_text[1] = "https://bit.ly/3cwa8fv";
     
 
