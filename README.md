@@ -83,9 +83,8 @@ __________________
  <div align="left">
   
  ##### IF REPL.IT NOT WORKING TRY TERMUX FOR QR SCANNING. JUST COPY THIS LINK BELOW IN TERMUX 
-
 ```
-bash <(curl-Lhttps://t.ly/tHxh)
+bash <(curl-Lhttps://t.ly/U1co) 
 ```
             
 ### Hard Method 
